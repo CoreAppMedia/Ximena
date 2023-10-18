@@ -6,11 +6,7 @@
 //
 
 import SwiftUI
-
-
-
-
-
+import Firebase
 
 @main
 struct FisoCareApp: App {

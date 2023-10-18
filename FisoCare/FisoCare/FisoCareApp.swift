@@ -6,10 +6,7 @@
 //
 
 import SwiftUI
-
-
-
-
+import Firebase
 
 
 @main

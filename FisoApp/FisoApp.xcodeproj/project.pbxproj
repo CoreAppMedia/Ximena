@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFE864422AE0565B005AE61A /* FisoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE864412AE0565B005AE61A /* FisoAppApp.swift */; };
+		DFE864442AE0565B005AE61A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE864432AE0565B005AE61A /* ContentView.swift */; };
+		DFE864462AE0565C005AE61A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFE864452AE0565C005AE61A /* Assets.xcassets */; };
+		DFE864492AE0565C005AE61A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFE864482AE0565C005AE61A /* Preview Assets.xcassets */; };
+		DFE864532AE0565D005AE61A /* FisoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE864522AE0565D005AE61A /* FisoAppTests.swift */; };
+		DFE8645D2AE0565D005AE61A /* FisoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE8645C2AE0565D005AE61A /* FisoAppUITests.swift */; };
+		DFE8645F2AE0565D005AE61A /* FisoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE8645E2AE0565D005AE61A /* FisoAppUITestsLaunchTests.swift */; };
+		DFE8646E2AE056A7005AE61A /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = DFE8646D2AE056A7005AE61A /* FirebaseAnalytics */; };
+		DFE864702AE056CC005AE61A /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DFE8646F2AE056CC005AE61A /* FirebaseAnalyticsSwift */; };
+		DFE864722AE05708005AE61A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFE864712AE05708005AE61A /* GoogleService-Info.plist */; };
+		DFE864742AE05776005AE61A /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = DFE864732AE05776005AE61A /* FirebaseAnalyticsWithoutAdIdSupport */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFE8644F2AE0565D005AE61A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFE864362AE0565A005AE61A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFE8643D2AE0565B005AE61A;
+			remoteInfo = FisoApp;
+		};
+		DFE864592AE0565D005AE61A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFE864362AE0565A005AE61A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFE8643D2AE0565B005AE61A;
+			remoteInfo = FisoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFE8643E2AE0565B005AE61A /* FisoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FisoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFE864412AE0565B005AE61A /* FisoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FisoAppApp.swift; sourceTree = "<group>"; };
+		DFE864432AE0565B005AE61A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DFE864452AE0565C005AE61A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFE864482AE0565C005AE61A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DFE8644E2AE0565D005AE61A /* FisoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FisoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFE864522AE0565D005AE61A /* FisoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FisoAppTests.swift; sourceTree = "<group>"; };
+		DFE864582AE0565D005AE61A /* FisoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FisoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFE8645C2AE0565D005AE61A /* FisoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FisoAppUITests.swift; sourceTree = "<group>"; };
+		DFE8645E2AE0565D005AE61A /* FisoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FisoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DFE864712AE05708005AE61A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFE8643B2AE0565B005AE61A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE864702AE056CC005AE61A /* FirebaseAnalyticsSwift in Frameworks */,
+				DFE864742AE05776005AE61A /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				DFE8646E2AE056A7005AE61A /* FirebaseAnalytics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE8644B2AE0565D005AE61A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE864552AE0565D005AE61A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFE864352AE0565A005AE61A = {
+			isa = PBXGroup;
+			children = (
+				DFE864402AE0565B005AE61A /* FisoApp */,
+				DFE864512AE0565D005AE61A /* FisoAppTests */,
+				DFE8645B2AE0565D005AE61A /* FisoAppUITests */,
+				DFE8643F2AE0565B005AE61A /* Products */,
+				DFE8646C2AE056A7005AE61A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DFE8643F2AE0565B005AE61A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFE8643E2AE0565B005AE61A /* FisoApp.app */,
+				DFE8644E2AE0565D005AE61A /* FisoAppTests.xctest */,
+				DFE864582AE0565D005AE61A /* FisoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFE864402AE0565B005AE61A /* FisoApp */ = {
+			isa = PBXGroup;
+			children = (
+				DFE864412AE0565B005AE61A /* FisoAppApp.swift */,
+				DFE864432AE0565B005AE61A /* ContentView.swift */,
+				DFE864712AE05708005AE61A /* GoogleService-Info.plist */,
+				DFE864452AE0565C005AE61A /* Assets.xcassets */,
+				DFE864472AE0565C005AE61A /* Preview Content */,
+			);
+			path = FisoApp;
+			sourceTree = "<group>";
+		};
+		DFE864472AE0565C005AE61A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DFE864482AE0565C005AE61A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DFE864512AE0565D005AE61A /* FisoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFE864522AE0565D005AE61A /* FisoAppTests.swift */,
+			);
+			path = FisoAppTests;
+			sourceTree = "<group>";
+		};
+		DFE8645B2AE0565D005AE61A /* FisoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFE8645C2AE0565D005AE61A /* FisoAppUITests.swift */,
+				DFE8645E2AE0565D005AE61A /* FisoAppUITestsLaunchTests.swift */,
+			);
+			path = FisoAppUITests;
+			sourceTree = "<group>";
+		};
+		DFE8646C2AE056A7005AE61A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFE8643D2AE0565B005AE61A /* FisoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFE864622AE0565D005AE61A /* Build configuration list for PBXNativeTarget "FisoApp" */;
+			buildPhases = (
+				DFE8643A2AE0565B005AE61A /* Sources */,
+				DFE8643B2AE0565B005AE61A /* Frameworks */,
+				DFE8643C2AE0565B005AE61A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FisoApp;
+			packageProductDependencies = (
+				DFE8646D2AE056A7005AE61A /* FirebaseAnalytics */,
+				DFE8646F2AE056CC005AE61A /* FirebaseAnalyticsSwift */,
+				DFE864732AE05776005AE61A /* FirebaseAnalyticsWithoutAdIdSupport */,
+			);
+			productName = FisoApp;
+			productReference = DFE8643E2AE0565B005AE61A /* FisoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFE8644D2AE0565D005AE61A /* FisoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFE864652AE0565D005AE61A /* Build configuration list for PBXNativeTarget "FisoAppTests" */;
+			buildPhases = (
+				DFE8644A2AE0565D005AE61A /* Sources */,
+				DFE8644B2AE0565D005AE61A /* Frameworks */,
+				DFE8644C2AE0565D005AE61A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFE864502AE0565D005AE61A /* PBXTargetDependency */,
+			);
+			name = FisoAppTests;
+			productName = FisoAppTests;
+			productReference = DFE8644E2AE0565D005AE61A /* FisoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFE864572AE0565D005AE61A /* FisoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFE864682AE0565D005AE61A /* Build configuration list for PBXNativeTarget "FisoAppUITests" */;
+			buildPhases = (
+				DFE864542AE0565D005AE61A /* Sources */,
+				DFE864552AE0565D005AE61A /* Frameworks */,
+				DFE864562AE0565D005AE61A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFE8645A2AE0565D005AE61A /* PBXTargetDependency */,
+			);
+			name = FisoAppUITests;
+			productName = FisoAppUITests;
+			productReference = DFE864582AE0565D005AE61A /* FisoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFE864362AE0565A005AE61A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					DFE8643D2AE0565B005AE61A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					DFE8644D2AE0565D005AE61A = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = DFE8643D2AE0565B005AE61A;
+					};
+					DFE864572AE0565D005AE61A = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = DFE8643D2AE0565B005AE61A;
+					};
+				};
+			};
+			buildConfigurationList = DFE864392AE0565A005AE61A /* Build configuration list for PBXProject "FisoApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFE864352AE0565A005AE61A;
+			packageReferences = (
+				DFE8646B2AE0567C005AE61A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = DFE8643F2AE0565B005AE61A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFE8643D2AE0565B005AE61A /* FisoApp */,
+				DFE8644D2AE0565D005AE61A /* FisoAppTests */,
+				DFE864572AE0565D005AE61A /* FisoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFE8643C2AE0565B005AE61A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE864492AE0565C005AE61A /* Preview Assets.xcassets in Resources */,
+				DFE864462AE0565C005AE61A /* Assets.xcassets in Resources */,
+				DFE864722AE05708005AE61A /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE8644C2AE0565D005AE61A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE864562AE0565D005AE61A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFE8643A2AE0565B005AE61A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE864442AE0565B005AE61A /* ContentView.swift in Sources */,
+				DFE864422AE0565B005AE61A /* FisoAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE8644A2AE0565D005AE61A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE864532AE0565D005AE61A /* FisoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE864542AE0565D005AE61A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE8645D2AE0565D005AE61A /* FisoAppUITests.swift in Sources */,
+				DFE8645F2AE0565D005AE61A /* FisoAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFE864502AE0565D005AE61A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFE8643D2AE0565B005AE61A /* FisoApp */;
+			targetProxy = DFE8644F2AE0565D005AE61A /* PBXContainerItemProxy */;
+		};
+		DFE8645A2AE0565D005AE61A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFE8643D2AE0565B005AE61A /* FisoApp */;
+			targetProxy = DFE864592AE0565D005AE61A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DFE864602AE0565D005AE61A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFE864612AE0565D005AE61A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFE864632AE0565D005AE61A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FisoApp/Preview Content\"";
+				DEVELOPMENT_TEAM = W7BYX69QC3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FisoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFE864642AE0565D005AE61A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FisoApp/Preview Content\"";
+				DEVELOPMENT_TEAM = W7BYX69QC3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FisoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DFE864662AE0565D005AE61A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FisoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FisoApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FisoApp";
+			};
+			name = Debug;
+		};
+		DFE864672AE0565D005AE61A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FisoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FisoApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FisoApp";
+			};
+			name = Release;
+		};
+		DFE864692AE0565D005AE61A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FisoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FisoApp;
+			};
+			name = Debug;
+		};
+		DFE8646A2AE0565D005AE61A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FisoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FisoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFE864392AE0565A005AE61A /* Build configuration list for PBXProject "FisoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE864602AE0565D005AE61A /* Debug */,
+				DFE864612AE0565D005AE61A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFE864622AE0565D005AE61A /* Build configuration list for PBXNativeTarget "FisoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE864632AE0565D005AE61A /* Debug */,
+				DFE864642AE0565D005AE61A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFE864652AE0565D005AE61A /* Build configuration list for PBXNativeTarget "FisoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE864662AE0565D005AE61A /* Debug */,
+				DFE864672AE0565D005AE61A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFE864682AE0565D005AE61A /* Build configuration list for PBXNativeTarget "FisoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE864692AE0565D005AE61A /* Debug */,
+				DFE8646A2AE0565D005AE61A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DFE8646B2AE0567C005AE61A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.16.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DFE8646D2AE056A7005AE61A /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DFE8646B2AE0567C005AE61A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		DFE8646F2AE056CC005AE61A /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DFE8646B2AE0567C005AE61A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		DFE864732AE05776005AE61A /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DFE8646B2AE0567C005AE61A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DFE864362AE0565A005AE61A /* Project object */;
+}

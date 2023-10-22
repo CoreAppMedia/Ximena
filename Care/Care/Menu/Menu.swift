@@ -1,15 +1,15 @@
 //
-//  HomeView.swift
+//  Menu.swift
 //  Care
 //
-//  Created by ximena juana mejia jacobo on 19/10/23.
+//  Created by ximena juana mejia jacobo on 21/10/23.
 //
 
 import SwiftUI
-//aqui es donde abre al app, se puede agregar lo demas menu o lo que sea
-struct HomeView: View {
+
+struct Menu: View {
     @ObservedObject var authenticationViewMondel: AuthenticationViewModel
-    @Binding var showMenu: Bool
+
     @State var ShowMenu: Bool = false
     //ocultar un nativo
    
@@ -24,34 +24,19 @@ struct HomeView: View {
     //Desplazamiento del gesto
     @GestureState var gestureOffset: CGFloat = 0
     var body: some View {
+ 
+        //vista de la navegacion completa
         NavigationView{
-            ZStack{
-           
-                Text("Bienvenide \(authenticationViewMondel.user?.email ?? "no user")")
-                    .padding(.top, 32)
-                Spacer()
-            //vstak
-            .navigationBarTitleDisplayMode(.inline)
-            .navigationTitle("Homes")
-            .toolbar{
-                Button("Logout") {
-                    authenticationViewMondel.logout()
-                    }
-                }//logout
+            HStack(spacing: 0){
+                
+                // Vista de la pestaña Principal
                 VStack(spacing:0){
                     TabView(selection: $currentTab){
                         //Este "Text" se repetira dependiendo el  numero de botones que etengan en el menu lateral(SideMenu), en este caso son 7
-                        Text("Bienvenide \(authenticationViewMondel.user?.email ?? "no user")")
-                            .toolbar{
-                                Button("Logout") {
-                                    authenticationViewMondel.logout()
-                                }
-                            }
-                            .padding(.top, 32)
-                        Spacer()
-                    .navigationBarTitleDisplayMode(.inline)
-                    .navigationTitle("Homes")
-                   
+                        HomeView(authenticationViewMondel: AuthenticationViewModel(), showMenu: $ShowMenu)
+                            .navigationBarTitleDisplayMode(.inline)
+                            .navigationBarHidden(true)
+                            .tag("house")
                         RutineF(showMenu: $ShowMenu)
                             .navigationBarTitleDisplayMode(.inline)
                             .navigationBarHidden(true)
@@ -64,7 +49,6 @@ struct HomeView: View {
                             .navigationBarTitleDisplayMode(.inline)
                             .navigationBarHidden(true)
                             .tag("person")
-                            
                     }//TabView
                     
                     VStack(spacing:0){
@@ -78,14 +62,20 @@ struct HomeView: View {
                         }//HStack de los botones para seleccionar una View principal
                         .padding([.top],15)
                     }
-
+                    
                     
                 }//VStack
+                //   .frame(width: getRect().width)
+                //BG cuando se muestra el menú
+                
             }
+            //tamaño máximo
         }
        
-
+        
     }
+   
+ 
     @ViewBuilder
     func TabButton(image: String)->some View{
         Button{
@@ -100,8 +90,8 @@ struct HomeView: View {
                     .frame(maxWidth: .infinity)
         }
     }//Termina Funcion
+    
 }
-
 
 #Preview {
     Base(authenticationViewMondel: AuthenticationViewModel())

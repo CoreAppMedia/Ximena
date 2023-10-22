@@ -35,6 +35,7 @@ struct LoginEmailView: View {
                 TextField("Digita tu Email", text: $textFielPassword)
                 Button("Login"){
                     authenticationViewModel.login(email: textFieldEmail, password: textFielPassword)
+                  
                 }
                 .padding(.top, 18)
                 .buttonStyle(.bordered)

@@ -20,13 +20,16 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 struct CareApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     @StateObject var authenticationViewModel = AuthenticationViewModel()
+    @State var ShowMenu: Bool = false
     var body: some Scene {
         WindowGroup {
-            if let user = authenticationViewModel.user{
-                HomeView(authenticationViewMondel: authenticationViewModel)
-            }else{
-                AuthenticationView(authenticationViewModel: authenticationViewModel)
-            }
+                    if let _ = authenticationViewModel.user{
+                        HomeView(authenticationViewMondel: authenticationViewModel, showMenu: $ShowMenu)
+
+                        }else{
+                            AuthenticationView(authenticationViewModel: authenticationViewModel)
+                        }
+                    }
         }
     }
-}
+

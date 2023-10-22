@@ -35,6 +35,7 @@ struct RegisterEmailView: View {
                 TextField("Digita tu Contraseña", text: $textFielPassword)
                 Button("Aceptar"){
                     authenticationViewModel.createNewUser(email: textFieldEmail,password: textFielPassword)
+                    
                 }
                 .padding(.top, 18)
                 .buttonStyle(.bordered)

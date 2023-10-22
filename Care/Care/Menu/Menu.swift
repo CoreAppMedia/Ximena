@@ -28,12 +28,11 @@ struct Menu: View {
         //vista de la navegacion completa
         NavigationView{
             HStack(spacing: 0){
-                
                 // Vista de la pestaña Principal
                 VStack(spacing:0){
                     TabView(selection: $currentTab){
                         //Este "Text" se repetira dependiendo el  numero de botones que etengan en el menu lateral(SideMenu), en este caso son 7
-                        HomeView(authenticationViewMondel: AuthenticationViewModel(), showMenu: $ShowMenu)
+                        Text("Home")
                             .navigationBarTitleDisplayMode(.inline)
                             .navigationBarHidden(true)
                             .tag("house")
@@ -56,6 +55,9 @@ struct Menu: View {
                         HStack(spacing:0){
                             TabButton(image: "house")
                             TabButton(image: "figure.run.circle")
+                            Button("Logout") {
+                                authenticationViewMondel.logout()
+                            }
                             TabButton(image: "info.bubble")
                             TabButton(image: "person")
                             
@@ -65,6 +67,7 @@ struct Menu: View {
                     
                     
                 }//VStack
+
                 //   .frame(width: getRect().width)
                 //BG cuando se muestra el menú
                 
@@ -80,6 +83,7 @@ struct Menu: View {
     func TabButton(image: String)->some View{
         Button{
             withAnimation{currentTab = image}
+            authenticationViewMondel.logout()
         }label: {
                 Image(systemName: image)
                     .resizable()
@@ -91,8 +95,10 @@ struct Menu: View {
         }
     }//Termina Funcion
     
+    
+    
 }
 
 #Preview {
-    Base(authenticationViewMondel: AuthenticationViewModel())
+    Menu(authenticationViewMondel: AuthenticationViewModel())
 }

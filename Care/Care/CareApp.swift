@@ -24,7 +24,7 @@ struct CareApp: App {
     var body: some Scene {
         WindowGroup {
                     if let _ = authenticationViewModel.user{
-                        HomeView(authenticationViewMondel: authenticationViewModel, showMenu: $ShowMenu)
+                        BaseView(authenticationViewModel: AuthenticationViewModel())
 
                         }else{
                             AuthenticationView(authenticationViewModel: authenticationViewModel)

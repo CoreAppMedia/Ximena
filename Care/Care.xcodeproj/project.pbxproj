@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF105D8E2AE2344300601FCB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF105D8D2AE2344300601FCB /* HomeView.swift */; };
+		AB1C8F562AE5DEFF00E0A49F /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1C8F552AE5DEFF00E0A49F /* BaseView.swift */; };
 		DF5D4C6C2AE3534A0071BCA6 /* TextAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5D4C6B2AE3534A0071BCA6 /* TextAnimation.swift */; };
 		DF666C7F2AE1FD6300F85A5E /* LoginEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF666C7E2AE1FD6300F85A5E /* LoginEmailView.swift */; };
 		DF666C812AE2008E00F85A5E /* RegisterEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF666C802AE2008E00F85A5E /* RegisterEmailView.swift */; };
@@ -16,11 +16,6 @@
 		DF666C882AE203F100F85A5E /* AuthenticationFirebaseDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF666C872AE203F100F85A5E /* AuthenticationFirebaseDatasource.swift */; };
 		DF666C8A2AE2090900F85A5E /* AuthenticationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF666C892AE2090900F85A5E /* AuthenticationRepository.swift */; };
 		DF666C8C2AE20AA600F85A5E /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF666C8B2AE20AA600F85A5E /* AuthenticationViewModel.swift */; };
-		DF7328B32AE4DB0C00AA6AB3 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7328B22AE4DB0C00AA6AB3 /* Menu.swift */; };
-		DF7328B72AE4DCC200AA6AB3 /* UsersF.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7328B62AE4DCC200AA6AB3 /* UsersF.swift */; };
-		DF7328B92AE4DCDB00AA6AB3 /* InfoF.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7328B82AE4DCDB00AA6AB3 /* InfoF.swift */; };
-		DF7328BB2AE4DCED00AA6AB3 /* RutineF.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7328BA2AE4DCED00AA6AB3 /* RutineF.swift */; };
-		DF7328BD2AE4DD8500AA6AB3 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7328BC2AE4DD8500AA6AB3 /* Base.swift */; };
 		DF9868D62AE0DCE2009D90A2 /* CareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9868D52AE0DCE2009D90A2 /* CareApp.swift */; };
 		DF9868D82AE0DCE2009D90A2 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9868D72AE0DCE2009D90A2 /* AuthenticationView.swift */; };
 		DF9868DD2AE0DCE5009D90A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF9868DC2AE0DCE5009D90A2 /* Preview Assets.xcassets */; };
@@ -56,7 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DF105D8D2AE2344300601FCB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AB1C8F552AE5DEFF00E0A49F /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		DF5D4C6B2AE3534A0071BCA6 /* TextAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAnimation.swift; sourceTree = "<group>"; };
 		DF666C7E2AE1FD6300F85A5E /* LoginEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginEmailView.swift; sourceTree = "<group>"; };
 		DF666C802AE2008E00F85A5E /* RegisterEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterEmailView.swift; sourceTree = "<group>"; };
@@ -64,11 +59,6 @@
 		DF666C872AE203F100F85A5E /* AuthenticationFirebaseDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationFirebaseDatasource.swift; sourceTree = "<group>"; };
 		DF666C892AE2090900F85A5E /* AuthenticationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationRepository.swift; sourceTree = "<group>"; };
 		DF666C8B2AE20AA600F85A5E /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
-		DF7328B22AE4DB0C00AA6AB3 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
-		DF7328B62AE4DCC200AA6AB3 /* UsersF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersF.swift; sourceTree = "<group>"; };
-		DF7328B82AE4DCDB00AA6AB3 /* InfoF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoF.swift; sourceTree = "<group>"; };
-		DF7328BA2AE4DCED00AA6AB3 /* RutineF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RutineF.swift; sourceTree = "<group>"; };
-		DF7328BC2AE4DD8500AA6AB3 /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
 		DF9868D22AE0DCE2009D90A2 /* Care.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Care.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF9868D52AE0DCE2009D90A2 /* CareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareApp.swift; sourceTree = "<group>"; };
 		DF9868D72AE0DCE2009D90A2 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
@@ -128,11 +118,7 @@
 		DF7328B12AE4DAE500AA6AB3 /* Menu */ = {
 			isa = PBXGroup;
 			children = (
-				DF7328B22AE4DB0C00AA6AB3 /* Menu.swift */,
-				DF7328BC2AE4DD8500AA6AB3 /* Base.swift */,
-				DF7328B62AE4DCC200AA6AB3 /* UsersF.swift */,
-				DF7328B82AE4DCDB00AA6AB3 /* InfoF.swift */,
-				DF7328BA2AE4DCED00AA6AB3 /* RutineF.swift */,
+				AB1C8F552AE5DEFF00E0A49F /* BaseView.swift */,
 			);
 			path = Menu;
 			sourceTree = "<group>";
@@ -169,7 +155,6 @@
 				DF666C872AE203F100F85A5E /* AuthenticationFirebaseDatasource.swift */,
 				DF666C892AE2090900F85A5E /* AuthenticationRepository.swift */,
 				DF666C8B2AE20AA600F85A5E /* AuthenticationViewModel.swift */,
-				DF105D8D2AE2344300601FCB /* HomeView.swift */,
 				DF9869112AE0E8C5009D90A2 /* Assets.xcassets */,
 				DF98690F2AE0DDB1009D90A2 /* GoogleService-Info.plist */,
 				DF9868DB2AE0DCE5009D90A2 /* Preview Content */,
@@ -361,21 +346,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF105D8E2AE2344300601FCB /* HomeView.swift in Sources */,
-				DF7328B92AE4DCDB00AA6AB3 /* InfoF.swift in Sources */,
 				DF9868D82AE0DCE2009D90A2 /* AuthenticationView.swift in Sources */,
 				DF5D4C6C2AE3534A0071BCA6 /* TextAnimation.swift in Sources */,
-				DF7328B72AE4DCC200AA6AB3 /* UsersF.swift in Sources */,
 				DF666C882AE203F100F85A5E /* AuthenticationFirebaseDatasource.swift in Sources */,
 				DF666C832AE2014C00F85A5E /* DismissView.swift in Sources */,
-				DF7328B32AE4DB0C00AA6AB3 /* Menu.swift in Sources */,
 				DF666C7F2AE1FD6300F85A5E /* LoginEmailView.swift in Sources */,
 				DF666C8C2AE20AA600F85A5E /* AuthenticationViewModel.swift in Sources */,
 				DF666C812AE2008E00F85A5E /* RegisterEmailView.swift in Sources */,
 				DF9868D62AE0DCE2009D90A2 /* CareApp.swift in Sources */,
-				DF7328BD2AE4DD8500AA6AB3 /* Base.swift in Sources */,
 				DF666C8A2AE2090900F85A5E /* AuthenticationRepository.swift in Sources */,
-				DF7328BB2AE4DCED00AA6AB3 /* RutineF.swift in Sources */,
+				AB1C8F562AE5DEFF00E0A49F /* BaseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

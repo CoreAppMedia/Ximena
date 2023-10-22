@@ -12,11 +12,6 @@ struct Base: View {
     @State var ShowMenu: Bool = false
     var body: some View {
         Menu(authenticationViewMondel: AuthenticationViewModel())
-            .toolbar{
-                Button("Logout") {
-                    authenticationViewMondel.logout()
-                }
-            }
 
     }
 }

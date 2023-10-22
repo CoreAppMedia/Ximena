@@ -37,6 +37,8 @@ struct ContentView: View {
             .buttonStyle(.bordered)
             .buttonBorderShape(.capsule)
             .padding(.top, 40)
+            Text("Aqui poner login vergudo")
+                .font(.title)
             Spacer()
             HStack{
                 Button{
@@ -48,6 +50,8 @@ struct ContentView: View {
                 }
                 .tint(.black)
             }
+            
+            Text("Aqui poner login vergudo")
         }// llave Vstack 1
         .sheet(item: $AutenticationSheetView){ sheet in
             switch sheet {

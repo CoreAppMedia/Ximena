@@ -75,6 +75,21 @@ struct BaseView: View {
                         VStack{
                             VStack(alignment: .leading, spacing: 38){
                                 
+                                NavigationLink{
+                                    PruebaBoton()
+                                }label: {
+                                    HStack(spacing: 14){
+                                        
+                                        Image(systemName: "person")
+                                            .resizable()
+                                            .renderingMode(.template)
+                                            .aspectRatio(contentMode: .fill)
+                                            .frame(width: 22, height: 22)
+                                        Text("pruebita")
+                                    }
+                                    .foregroundColor(.primary)
+                                    .frame(maxWidth: .infinity, alignment: .leading)
+                                }
                                 TabButton(title: "Perfil", image: "person.fill")
                                 TabButton(title: "Lista", image: "person")
                                 TabButton(title: "Temas", image: "person.fill")

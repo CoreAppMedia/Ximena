@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+//aqui esta todote el menu, arbol vaya
 struct BaseView: View {
     @StateObject var authenticationViewModel = AuthenticationViewModel()
     

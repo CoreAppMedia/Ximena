@@ -12,7 +12,7 @@ struct Home: View {
     @State var titles = [
      "Ayuda desde casita",
      "Un lugar seguro para ti",
-     "Ayuda para tus peques"
+     "Ayuda para tus Emociones"
     ]
     @State var subTitles = [
         "Ejercicios - informacion - Ayuda",
